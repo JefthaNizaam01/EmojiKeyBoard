@@ -1,0 +1,185 @@
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.container{
+    margin: 190px 0 0 5px;
+}
+.row{  
+    height:60px;
+    width: 100%;
+}
+.zero,.one, .two, .three, .four, .five, .six {
+    margin: 11px 0 0 0;
+}
+button {
+    color: red;
+    width: 57px;
+    height: 57px;
+    border:none;
+    background: black;
+    box-shadow: 5px 5px 10px red, -5px -5px 10px red;
+    font-size: 25px;
+    margin-left: 20px;
+    outline:none;
+    font-family: Arial;
+    border-radius: 20%;
+}
+button:active{
+    box-shadow: 1px 1px 2px #FFF8F8, -1px -1px 2px #474343;
+}
+.backspace{
+    width: 130px;
+    border-radius: 10px;
+}
+.tab{
+    width: 85px;
+    border-radius: 10px;
+}
+.slace{
+     width:85px;
+     border-radius: 10px;
+}
+.cap{
+    width:100px;
+    border-radius: 10px;
+}
+.enter{
+    width:135px;
+    border-radius: 10px;
+}
+.shift{
+    width:150px;
+    border-radius: 10px;
+}
+.different{
+    width:82px;
+    border-radius: 10px;
+}
+.space{
+    width:400px;
+    border-radius: 10px;
+}
+.Delete {
+    width:95px;
+    border-radius: 10px; 
+}
+.insert {
+    width:95px;
+    border-radius: 10px; 
+}
+#top {
+    position:relative;
+    top: -10px;
+}
+.Print{
+    width:81px;
+    border-radius: 10px;  
+}
+.scroll {
+    width:80px;
+    height: -40px
+    border-radius: 10px;  
+}
+.pause {
+    width:90px;
+    border-radius: 10px;  
+}
+.Ins{
+    width:81px;
+    border-radius: 10px; 
+}
+.Home {
+    width:80px;
+    border-radius: 10px; 
+}
+.PageUp {
+    width:90px;
+    border-radius: 10px; 
+    position:relative;
+    top:-13px;
+    right: -3px;
+
+}
+.Num {
+    width:60px;
+    border-radius: 10px;  
+    position: relative;
+    top: -12px; 
+}
+#numlock{
+    position: relative;
+    right:-20px;
+}
+
+.DEL{
+    width:80px;
+    border-radius: 10px;
+    position: relative;
+    right: -15px;
+}
+.End {
+    width:80px;
+    border-radius: 10px;
+    position: relative;
+    right: -17px;
+}
+.PageDown{
+    width:90px;
+    border-radius: 10px;
+    position: relative;
+    top: -12px;
+    right:-20px;
+}
+.secondc{
+    width: 75px;
+    border-radius: 10px;
+}
+.fo{
+    position: relative;
+    left: 360px;
+}
+.line1 {
+    position:relative;
+    left: 378px;
+}
+
+.ent1{
+    position: relative;
+    left:365px;
+    width: 67px;
+}
+.last1 {
+    position: relative;
+    top: -68px;
+    right: 14px;
+}
+.last2{
+    position: relative;
+    top:-67px;
+    left: -18px;
+    width:57px;
+
+}
+
+#arrow {
+    position: relative;
+    top: -68px;
+    left: -145px
+}
+.leftarrow {
+    margin-left: 250px;
+
+}
+
+.downarrow {
+    width:57px;
+    border-radius: 10px;
+    margin-left: 1491px;
+}
